@@ -11,7 +11,7 @@ const Login = () => {
 
     console.log("Tentando login com:", email, password); // Adicionado aqui
 
-    if (email === "observeradmin@gmail.com" && password === "@Ebf100469") {
+    if (email === "marcio@univesp.br" && password === "pi3univesp") {
       navigate("/dashboard"); // Simulação de login
     } else {
       alert("Credenciais inválidas!");
